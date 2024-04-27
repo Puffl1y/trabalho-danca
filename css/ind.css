@@ -1,0 +1,54 @@
+body {
+    background-color: #fbfbf9;
+    
+  }
+
+.video {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+   }
+
+   .titulo {
+    display: flex;
+    padding: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 70px;
+    justify-content: center;
+    margin-bottom: 0;
+    
+}
+
+.c-text {
+  display: grid;
+  padding: 10px;
+  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 300px;
+  margin-bottom: 20px;
+  grid-template-columns: 40% 30% 30%;
+  animation-name: font;
+  animation-duration: 3s;
+
+}
+
+
+
+
+
+  .br{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+  }
+   
+   a:hover {
+    color: #EC7063;
+   }
+

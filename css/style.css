@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@keyframes animacao{
+  from {background-color: #3DFFA0;}
+  to {background-color: #fbfbf9;}
+}
+
+@keyframes font{
+  from {color: #3DFFA0;}
+  to {color: #000000;}
+}
+
+
+body {
+    background-color: #fbfbf9;
+    animation-name: animacao;
+    animation-duration: 3s;
+  }
+
+.titulo {
+    display: flex;
+    padding: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 70px;
+    justify-content: center;
+    margin-bottom: 0;
+    animation-name: font;
+    animation-duration: 3s;
+}
+
+.intro {
+    display: grid;
+    padding: 10px;
+    justify-content: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 300px;
+    margin-bottom: 20px;
+    grid-template-columns: 30% 40% 30%;
+    animation-name: font;
+    animation-duration: 3s;
+}
+
+
+  .br{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    animation-name: font;
+    animation-duration: 3s;
+  }
+   
+   a:hover {
+    color: #9FC131;
+   }
+
+   .chegada {
+    display: flex;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+   }
+
+ .chegada:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+   .jean {
+    display: flex;
+    margin-left: 100px;
+    width: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+   }
+
+   .jean:hover{
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.book {
+  display: flex;
+  width: 20%;
+  transition: all 0.5s;
+  cursor: pointer;
+ }
+
+ .book:hover{
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+   .video {
+    display: grid;
+    padding: 10px;
+    margin-bottom: 20px;
+    grid-template-columns: 30% 40% 30%;
+    width: 100%;
+   }
+
+   td, th {
+    border: 1px solid #000000;
+    padding: 5px 20px;
+}
